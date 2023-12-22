@@ -14,6 +14,9 @@
 		BE447CE62B3425320055BBFD /* TimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447CE52B3425320055BBFD /* TimerAppTests.swift */; };
 		BE447CF02B3425320055BBFD /* TimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447CEF2B3425320055BBFD /* TimerAppUITests.swift */; };
 		BE447CF22B3425320055BBFD /* TimerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447CF12B3425320055BBFD /* TimerAppUITestsLaunchTests.swift */; };
+		BE447CFF2B34255C0055BBFD /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447CFE2B34255C0055BBFD /* TimerViewModel.swift */; };
+		BE447D012B3429EE0055BBFD /* ExtenstionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447D002B3429EE0055BBFD /* ExtenstionDouble.swift */; };
+		BE447D032B342AA60055BBFD /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE447D022B342AA60055BBFD /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BE447CEB2B3425320055BBFD /* TimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE447CEF2B3425320055BBFD /* TimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITests.swift; sourceTree = "<group>"; };
 		BE447CF12B3425320055BBFD /* TimerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE447CFE2B34255C0055BBFD /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		BE447D002B3429EE0055BBFD /* ExtenstionDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenstionDouble.swift; sourceTree = "<group>"; };
+		BE447D022B342AA60055BBFD /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,11 @@
 			children = (
 				BE447CD42B3425300055BBFD /* TimerAppApp.swift */,
 				BE447CD62B3425300055BBFD /* ContentView.swift */,
+				BE447CFE2B34255C0055BBFD /* TimerViewModel.swift */,
 				BE447CD82B3425320055BBFD /* Assets.xcassets */,
 				BE447CDA2B3425320055BBFD /* Preview Content */,
+				BE447D002B3429EE0055BBFD /* ExtenstionDouble.swift */,
+				BE447D022B342AA60055BBFD /* ProgressBarView.swift */,
 			);
 			path = TimerApp;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE447CD72B3425300055BBFD /* ContentView.swift in Sources */,
+				BE447D012B3429EE0055BBFD /* ExtenstionDouble.swift in Sources */,
+				BE447CFF2B34255C0055BBFD /* TimerViewModel.swift in Sources */,
+				BE447D032B342AA60055BBFD /* ProgressBarView.swift in Sources */,
 				BE447CD52B3425300055BBFD /* TimerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
